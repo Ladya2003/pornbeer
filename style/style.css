@@ -1,0 +1,209 @@
+@font-face {
+  font-family: Inter;
+  src: url(../font/Inter-Regular.ttf);
+}
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  background-color: #464646;
+}
+html body a:link,
+html body a:visited {
+  text-decoration: none;
+  color: white;
+}
+html body h1, html body h2, html body h3, html body input, html body p, html body a, html body figcaption {
+  font-family: Inter;
+}
+html body nav {
+  background-color: rgba(207, 207, 207, 0.2588235294);
+  padding-bottom: 2vw;
+  margin: -8px -8px 0 -8px;
+}
+html body nav .nav-tools-1 {
+  display: flex;
+  align-items: center;
+  padding: 2vw 1vw 1vw 1vw;
+  justify-content: space-between;
+}
+html body nav .nav-tools-1 .pornBeer-logo {
+  width: 15vw;
+  height: 5vw;
+  border-radius: 1vw;
+  margin-left: 2vw;
+}
+html body nav .nav-tools-1 .search {
+  display: flex;
+  align-items: center;
+  background-color: #D9D9D9;
+  height: 5vh;
+  width: 40vw;
+  border-radius: 1vw;
+  padding: 0.5vw;
+  cursor: pointer;
+}
+html body nav .nav-tools-1 .search .search-img {
+  width: 2vw;
+  height: 2vw;
+}
+html body nav .nav-tools-1 .search .search-input {
+  margin: 0 0 0 1vw;
+  font-size: 1.5vw;
+  background-color: transparent;
+  border: none;
+  width: 35vw;
+  color: rgba(0, 0, 0, 0.493);
+  cursor: pointer;
+}
+html body nav .nav-tools-1 .search .search-input:focus {
+  outline: none;
+}
+html body nav .nav-tools-1 .sign {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  background-color: rgba(0, 0, 0, 0.768627451);
+  font-size: 1.5vw;
+  padding: 0.5vw 2vw;
+  border-radius: 1vw;
+  text-transform: uppercase;
+  margin-right: 2vw;
+}
+html body nav .nav-tools-1 .sign .vertical-line {
+  width: 0.25vw;
+  height: 7vh;
+}
+html body nav .nav-tools-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #030303;
+  width: 95vw;
+  color: white;
+  font-size: 1vw;
+  margin: auto;
+  padding: 0.25vw;
+}
+html body nav .nav-tools-2 h3 {
+  margin: 0;
+}
+html body .main-content {
+  background-color: rgba(41, 41, 41, 0.6862745098);
+  margin: 0 -8px 0 -8px;
+  padding: 3vw 0 0 0;
+}
+html body .main-content .main-content-header-1, html body .main-content .main-content-header-2 {
+  background-color: rgba(0, 0, 0, 0.2862745098);
+  padding: 0.5vw 4vw;
+  margin: 3vw auto 5vw auto;
+  text-align: center;
+  width: 40vw;
+  border-radius: 1vw;
+  font-size: 1.5vw;
+}
+html body .main-content .main-content-header-1 p, html body .main-content .main-content-header-2 p {
+  margin: 0;
+  color: white;
+}
+html body .main-content .main-content-header-2 {
+  margin-top: 6vw;
+}
+html body .main-content .vids1-8 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 5vw;
+}
+html body .main-content .vids1-4,
+html body .main-content .vids5-8 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3vw;
+}
+html body .main-content .vids1-4 figure,
+html body .main-content .vids5-8 figure {
+  margin: 0;
+}
+html body .main-content .vids1-4 figure figcaption,
+html body .main-content .vids5-8 figure figcaption {
+  color: white;
+  font-size: 1vw;
+  text-align: center;
+}
+html body .main-content .vids1-4 img,
+html body .main-content .vids5-8 img {
+  width: 20vw;
+  height: 15vw;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+html body .main-content .vids1-4 img:hover,
+html body .main-content .vids5-8 img:hover {
+  filter: brightness(70%);
+}
+html body .main-content .commercial {
+  margin-top: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html body .main-content .commercial .com1-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  width: 32.6vw;
+  height: 20vw;
+  overflow: hidden;
+}
+html body .main-content .commercial .com1-wrapper:hover .com1 {
+  width: 600px;
+  height: 450px;
+  transform: translate(-2vw, -5vw);
+}
+html body .main-content .commercial .com1-wrapper .com1 {
+  position: absolute;
+  z-index: -1;
+  width: 500px;
+  height: 350px;
+  top: 0;
+  left: 0;
+  margin: auto;
+  transition: 0.6s;
+}
+html body .main-content .commercial .com1-wrapper p {
+  color: white;
+}
+html body footer {
+  margin: 6vw -8px -8px -8px;
+  padding: 1vw 0 2vw 0;
+  background-color: rgb(31, 29, 29);
+  color: white;
+}
+html body footer .footer-info-1 h3 {
+  font-size: 1vw;
+  text-align: center;
+}
+html body footer .footer-info-1 p {
+  width: 60vw;
+  text-align: center;
+  margin: auto;
+}
+html body footer .footer-info-2 {
+  margin-top: 2vw;
+}
+html body footer .footer-info-2 .footer-master {
+  display: flex;
+  justify-content: center;
+  gap: 5vw;
+}
+html body footer .footer-info-2 .footer-master h3 {
+  font-size: 1vw;
+}
+html body footer .footer-info-2 .footer-master img {
+  width: 3vw;
+  height: 3vw;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
